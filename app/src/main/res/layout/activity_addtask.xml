@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".Addtask">
+
+
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add your tasks Assignments Here!"/>
+
+    <EditText
+        android:id="@+id/taskname"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e.g.task001-Further reading"
+        />
+
+    <EditText
+        android:id="@+id/taskdesc"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e.g.Revise the second topic in Discrete maths and practice"
+        android:gravity="start|top"
+        />
+
+    <EditText
+        android:id="@+id/taskdue"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e.g.Monday afternoon"
+        />
+
+    <Button
+        android:id="@+id/btnnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Add New task" />
+
+    <Button
+        android:id="@+id/btntupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Update task" />
+
+    <Button
+        android:id="@+id/btntdelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Delete task" />
+
+    <Button
+        android:id="@+id/btntview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="View task" />
+
+</LinearLayout>

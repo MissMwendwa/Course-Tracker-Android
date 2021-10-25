@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Timetable">
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TimeTable View"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monday:11am-2pm-Probability and Statistics"
+        />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monday:3pm-5pm-Fundamentals of web design" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuesday:8am-10.30am-System Analysis and design"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuesday:12pm-2pm-Principles of Databases" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wednesday:8am-11am-Introduction to programming"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wednesday:2pm-4pm-Computational Thinking Theory"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thursday:12pm-3pm-Discrete Mathematics"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Friday:9am-12pm-Networking Essentials"/>
+
+    <Button
+        android:id="@+id/btndone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Done" />
+
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".studentinformation">
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Information"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Name: Michael Macharia"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admission number: BSD18/09867 "/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Name: BSc. In Software Development"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faculty of study: College of Technology"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year of study: BSD1.2"/>
+
+    <Button
+        android:id="@+id/btnfinish"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Done" />
+</LinearLayout>
